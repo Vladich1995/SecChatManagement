@@ -1,8 +1,8 @@
-const express = require("../node_modules/express");
+const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const userRoutes = require("../routes/user-routes");
+const userRoutes = require("./routes/user-routes");
 
 app.use(bodyParser.json());
 
